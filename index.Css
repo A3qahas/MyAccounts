@@ -172,8 +172,8 @@ to{
         position: fixed;
         top: 0;
         left: 0;
-        width: 100vw;
-        height: 100vh;
+        right: 0;
+        bottom: 0;
         background: #121212 url(photos/My\ photo.jpg) no-repeat;
         background-size: cover;
         background-position: -370px;
