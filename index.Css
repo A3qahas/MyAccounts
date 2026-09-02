@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Open Sans", sans-serif ,'Courier New', Courier, monospace;
+
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(photos/BG.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    color:white;
+}
+.wrapper{
+background-color: transparent;
+backdrop-filter:blur(5px);
+padding: 15px 30px;
+box-shadow: 0 0 7px black;
+border-radius: 10px;
+}
+
+.nameTitle{
+    font-size: 32px;
+    text-align: center;
+    padding:20px 30px 10px;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 2px black;
+    animation: text 3s linear infinite alternate;
+
+}
+
+.acc{   
+    font-size: 28px;
+    text-align: center;
+    padding:10px 15px 30px;
+    text-shadow: 1px 1px 2px black;
+    animation: flipText 3s linear infinite alternate;
+
+}
+
+a{
+    text-decoration: none;
+    padding: 7px 3px;
+    font-size: 25px;
+    box-shadow: 0 0 2px black;
+    text-shadow: 0px 0px 1px black;
+}
+.SocialMedia{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+}   
+
+.instagram{
+color:blueviolet;
+border: solid blueviolet 2px;
+border-radius: 30px;
+}
+
+.snap{
+color: yellow;
+border: solid yellow 2px;
+border-radius: 30px;
+}
+
+.tiktok{
+color: rgb(255, 255, 255);
+border: solid rgb(255, 255, 255) 2px;
+border-radius: 30px;
+}
+
+.x{
+color: rgb(0, 199, 43) ;
+border: solid rgb(0, 199, 43) 2px;
+border-radius: 30px;
+}
+
+.linkedin{
+color: rgb(35, 138, 255);
+border: solid rgb(35, 138, 255) 2px;
+border-radius: 30px;
+}
+
+.instagram:hover{
+    scale: 1.02;
+    box-shadow: 0 0 20px blueviolet;
+}
+
+.snap:hover{
+    scale: 1.02;
+    box-shadow: 0 0 20px yellow;
+}
+
+.tiktok:hover{
+    scale: 1.02;
+    box-shadow: 0 0 20px rgb(255, 255, 255);
+}
+
+.x:hover{
+    scale: 1.02;
+    box-shadow: 0 0 20px rgb(0, 199, 43);
+}
+
+.linkedin:hover{
+    scale: 1.02;
+    box-shadow: 0 0 20px rgb(35, 138, 255);
+}
+
+@keyframes text{
+from{
+    opacity: 0.8;
+    transform: translateX(1px);
+    scale: 0.99;
+    text-shadow: 0 0 30px white;
+}
+to{
+    opacity: 1;
+    transform: translateX(0);
+    scale: 1.02;
+    text-shadow: 0 0 0px white;
+}
+}
+
+@keyframes flipText {
+    from{
+    opacity: 1;
+    transform: translateX(0);
+    scale: 1.02;
+    text-shadow: 0 0 10px white;
+}
+to{
+    opacity: 0.8;
+    transform: translateX(1px);
+    scale: 0.99;
+    text-shadow: 0 0 0px white;
+}
+}
+
+@media(max-width: 768px){
+    .wrapper{
+        width: 85%;
+        
+    }
+
+    .nameTitle{
+        font-size: 40px;
+    }
+    .acc{
+        font-size: 30px;
+    }
+
+    body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(photos/My\ photo.jpg) no-repeat;
+    background-size: cover;
+    background-position: -360px;
+    color:white;
+}
+}
+
+
