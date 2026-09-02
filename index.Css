@@ -155,14 +155,19 @@ to{
         font-size: 30px;
     }
 
+    html{
+    background-color: #121212;
+    }
+
     body{
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url(photos/My\ photo.jpg) no-repeat;
+    background: #121212 url(photos/My\ photo.jpg) no-repeat;
     background-size: cover;
-    background-position: -360px;
+    background-position: -370px;
+    background-attachment: fixed;
     color:white;
 }
 }
