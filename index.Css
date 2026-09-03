@@ -87,6 +87,12 @@ border: solid rgb(35, 138, 255) 2px;
 border-radius: 30px;
 }
 
+.github{
+    color: rgb(0, 255, 195);
+    border: solid rgb(0, 255, 195) 2px;
+    border-radius: 30px;
+}
+
 .instagram:hover{
     scale: 1.02;
     box-shadow: 0 0 20px blueviolet;
@@ -110,6 +116,11 @@ border-radius: 30px;
 .linkedin:hover{
     scale: 1.02;
     box-shadow: 0 0 20px rgb(35, 138, 255);
+}
+
+.github:hover{
+    scale: 1.02;
+    box-shadow: 0 0 20px rgb(0, 255, 195);
 }
 
 @keyframes text{
